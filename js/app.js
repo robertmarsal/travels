@@ -1,5 +1,3 @@
-var map;
-
 // Styles from https://snazzymaps.com/style/38/shades-of-grey
 var styles = [{
     "featureType": "all",
@@ -64,9 +62,28 @@ var mapOptions = {
 };
 
 var data = [
-    {}
+    {lat: 38.957083, lng: -39.074225, title: 'Test'}
 ];
 
 function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    addMarkers(map, data);
+}
+
+function addMarkers(map, data) {
+    for (var i in data) {
+        new google.maps.Marker({
+            position: {lat: data[i].lat, lng: data[i].lng},
+            title: data[i].title,
+            icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                scale: 3,
+                strokeWeight: 2,
+                strokeColor: '#FF0066',
+                //fillColor: '#FF0066',
+                //fillOpacity: 1,
+            },
+            map: map
+        });
+    }
 }
