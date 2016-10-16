@@ -22,6 +22,12 @@ var data = [
     {lat: 52.509718, lng: 13.375700, title: 'Berlin - Germany'},
     {lat: 48.790189, lng: 9.183139, title: 'Stuttgart - Germany'},
     {lat: 48.678424, lng: 8.356038, title: 'Forbach - Germany'},
+    {lat: 35.685766, lng: 139.690605, title: 'Tokyo - Japan'},
+    {lat: 34.668945, lng: 135.501056, title: 'Osaka - Japan'},
+    {lat: 34.395465, lng: 132.454000, title: 'Hiroshima - Japan'},
+    {lat: 34.295957, lng: 132.319799, title: 'Miyajima - Japan'},
+    {lat: 35.001988, lng: 135.775483, title: 'Kyoto - Japan'},
+    {lat: 34.681935, lng: 135.828921, title: 'Nara - Japan'},
 ];
 
 // Styles from https://snazzymaps.com/style/38/shades-of-grey
