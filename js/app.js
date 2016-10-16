@@ -96,6 +96,7 @@ var mapOptions = {
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
     addMarkers(map, data);
+    addOverlayView(map);
 }
 
 function addMarkers(map, data) {
@@ -105,11 +106,21 @@ function addMarkers(map, data) {
             title: data[i].title,
             icon: {
                 path: google.maps.SymbolPath.CIRCLE,
-                scale: 3,
-                strokeWeight: 2,
+                scale: 2,
+                strokeWeight: 3,
                 strokeColor: '#FF0066',
+                fillColor: '#FF0066',
+                fillOpacity: 1,
             },
             map: map
         });
     }
+}
+
+function addOverlayView(map) {
+    var overlayView = new google.maps.OverlayView();
+    overlayView.draw = function () {
+        this.getPanes().markerLayer.id = 'markers';
+    };
+    overlayView.setMap(map);
 }
