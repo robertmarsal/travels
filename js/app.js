@@ -28,6 +28,8 @@ var data = [
     {lat: 34.295957, lng: 132.319799, title: 'Miyajima - Japan'},
     {lat: 35.001988, lng: 135.775483, title: 'Kyoto - Japan'},
     {lat: 34.681935, lng: 135.828921, title: 'Nara - Japan'},
+    {lat: 53.479012, lng: -2.233202, title: 'Manchester - United Kingdom'},
+    {lat: 39.519703, lng: 2.469231, title: 'Mallorca - Spain'}
 ];
 
 // Styles from https://snazzymaps.com/style/38/shades-of-grey
