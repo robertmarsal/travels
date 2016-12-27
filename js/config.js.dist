@@ -1,0 +1,4 @@
+var config = {
+    // Your Google Maps API key goes here
+    apiKey: ''
+};
