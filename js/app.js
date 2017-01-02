@@ -113,14 +113,14 @@ function initMapCallback() {
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
     // Configure the map
-    addMarkers(map, data);
+    addMarkers(map, data.points);
     addOverlayView(map);
-    fitBounds(map, data);
+    fitBounds(map, data.points);
 }
 
 // Load the google maps script dynamically so that we can configure the key
 var googleMapsScript = document.createElement('script');
 googleMapsScript.async = true;
 googleMapsScript.defer = true;
-googleMapsScript.src   = 'https://maps.googleapis.com/maps/api/js?callback=initMapCallback&key=' + config.apiKey;
+googleMapsScript.src   = 'https://maps.googleapis.com/maps/api/js?callback=initMapCallback&key=' + data.apiKey;
 document.getElementsByTagName('body')[0].appendChild(googleMapsScript);
