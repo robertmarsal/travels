@@ -6,6 +6,8 @@ Map your travels around the world.
 
 ![Preview](http://i.imgur.com/7kFVWux.png)
 
+See a live demo here: https://robertboloc.eu/projects/travels/
+
 ## Installation
 
 To obtain the code just clone this repository.
