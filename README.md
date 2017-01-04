@@ -25,5 +25,5 @@ to indexing engines.
 To configure the application please copy the `data.js.dist`
 file to `data.js` and fill in the details.
 
-You will need a Google Maps API key and the lat/lng of the
+You will need a [Google Maps API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) and the lat/lng of the
 locations you want to map.
