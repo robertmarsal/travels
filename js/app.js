@@ -75,11 +75,11 @@ var mapOptions = {
     styles: styles
 };
 
-function addMarkers(map, data) {
-    for (var i in data) {
+function addMarkers(map, points) {
+    for (var i in points) {
         new google.maps.Marker({
-            position: {lat: data[i].lat, lng: data[i].lng},
-            title: data[i].title,
+            position: {lat: points[i].lat, lng: points[i].lng},
+            title: points[i].title,
             icon: {
                 path: google.maps.SymbolPath.CIRCLE,
                 scale: 2,
@@ -101,12 +101,19 @@ function addOverlayView(map) {
     overlayView.setMap(map);
 }
 
-function fitBounds(map, data) {
+function fitBounds(map, points) {
     var latLngBounds = new google.maps.LatLngBounds();
-    for (var i = 0; i < data.length; i++) {
-        latLngBounds.extend({lat: data[i].lat, lng: data[i].lng});
+    for (var i = 0; i < points.length; i++) {
+        latLngBounds.extend({lat: points[i].lat, lng: points[i].lng});
     }
     map.fitBounds(latLngBounds);
+}
+
+function addLegend(map, points) {
+    var legend = document.getElementById('legend');
+    legend.innerText = points.length + ' locations';
+
+    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
 }
 
 function initMapCallback() {
@@ -115,6 +122,7 @@ function initMapCallback() {
     // Configure the map
     addMarkers(map, data.points);
     addOverlayView(map);
+    addLegend(map, data.points);
     fitBounds(map, data.points);
 }
 

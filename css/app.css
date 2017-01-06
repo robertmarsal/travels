@@ -13,6 +13,16 @@ html, body {
     border: 1px solid #2b2b2b;
 }
 
+#legend {
+    color: white;
+    background: #CC0052;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 2px;
+    opacity: .9;
+    margin: 5px 10px 15px 5px;
+}
+
 @keyframes pulsate {
     0% {
         box-shadow: none
