@@ -82,8 +82,8 @@ function addMarkers(map, points) {
             title: points[i].title,
             icon: {
                 path: google.maps.SymbolPath.CIRCLE,
-                scale: 2,
-                strokeWeight: 3,
+                scale: 4,
+                strokeWeight: 4,
                 strokeColor: '#FF0066',
                 fillColor: '#FF0066',
                 fillOpacity: 1,
