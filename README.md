@@ -10,15 +10,13 @@ See a live demo here: https://robertboloc.eu/projects/travels/
 
 ## Installation
 
-To obtain the code just clone this repository.
+Clone this repository then move the public folder into the html folder of your
+web server
 
 ```
 git clone https://github.com/robertboloc/travels.git
+mv travels/public /var/www/html/travels
 ```
-
-If you are serving this over the web make sure to either block
-access to the `.git` folder or delete it to avoid exposing it
-to indexing engines.
 
 ## Configuration
 
