@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var package = require('../package.json');
+
+program
+    .version(package.version)
+    .parse(process.argv);
+
+if(!program.args.length) {
+    program.help();
+}

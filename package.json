@@ -1,0 +1,17 @@
+{
+  "name": "travels",
+  "version": "1.0.0",
+  "description": "Map your travels around the world",
+  "keywords": [
+    "travel",
+    "map"
+  ],
+  "author": "Robert Boloc <robertboloc@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "travels": "bin/travels"
+  },
+  "devDependencies": {
+    "commander": "^2.9.0"
+  }
+}
