@@ -31,6 +31,10 @@ var data = {
         {lat: 35.001988, lng: 135.775483, title: 'Kyoto - Japan'},
         {lat: 34.681935, lng: 135.828921, title: 'Nara - Japan'},
         {lat: 53.479012, lng: -2.233202, title: 'Manchester - United Kingdom'},
-        {lat: 39.519703, lng: 2.469231, title: 'Mallorca - Spain'}
+        {lat: 39.519703, lng: 2.469231, title: 'Mallorca - Spain'},
+        {lat: 52.370980, lng: 4.893472, title: 'Amsterdam - Netherlands'},
+        {lat: 52.512544, lng: 5.049012, title: 'Edam - Netherlands'},
+        {lat: 52.495233, lng: 5.070605, title: 'Volendam - Netherlands'},
+        {lat: 52.473119, lng: 4.819826, title: 'Zaanse Schans - Netherlands'}
     ]
 };
