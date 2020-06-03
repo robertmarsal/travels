@@ -14,7 +14,7 @@ Clone this repository then move the public folder into the html folder of your
 web server
 
 ```
-git clone https://github.com/robertboloc/travels.git
+git clone https://github.com/robertmarsal/travels.git
 mv travels/public /var/www/html/travels
 ```
 
