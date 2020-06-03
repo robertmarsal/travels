@@ -1,5 +1,5 @@
 var data = {
-    apiKey: 'AIzaSyDM3IO2owtaog_Ho40wY1ogpdEEfdgL4bs',
+    apiKey: 'AIzaSyApsqQ-6fp04cObM78Fdg1QDdxPBo_6Bd4',
     points: [
         {lat: 51.500736, lng: -0.124625, title: 'London - United Kingdom'},
         {lat: 54.048200, lng: -2.797351, title: 'Lancaster - United Kingdom'},
