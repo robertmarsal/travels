@@ -42,5 +42,8 @@ var data = {
         {lat: 51.8856696, lng: -1.7637857, title: 'Burton-on-the-Water - United Kingdom'},
         {lat: 51.9312238, lng: -1.728161, title: 'Stow-on-the-Wold - United Kingdom'},
         {lat: 51.7597913, lng: -1.8345105, title: 'Bibury - United Kingdom'},
+        {lat: 17.4121531, lng: 78.1278513, title: 'Hyderabad - India'},
+        {lat: 50.9990242, lng: -0.1086473, title: 'Haywards Heath - United Kingdom'},
+        {lat: 48.8038949, lng: 2.1016689, title: 'Versailles - France'},
     ]
 };
