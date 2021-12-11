@@ -18,6 +18,7 @@ var data = {
         {lat: 43.268671, lng: -2.936205, title: 'Bilbao - Spain'},
         {lat: 38.531958, lng: -0.158445, title: 'Benidorm - Spain'},
         {lat: 39.455156, lng: -0.350433, title: 'Valencia - Spain'},
+        {lat: 38.345943, lng: -0.493081, title: 'Alicante - Spain'},
         {lat: 42.509264, lng: 1.530649, title: 'Andorra la Vella - Andorra'},
         {lat: 51.212594, lng: 3.227896, title: 'Bruges - Belgium'},
         {lat: 50.846723, lng: 4.352368, title: 'Brussels - Belgium'},
