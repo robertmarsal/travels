@@ -50,5 +50,11 @@ var data = {
         {lat: 17.4121531, lng: 78.1278513, title: 'Hyderabad - India'},
         {lat: 50.9990242, lng: -0.1086473, title: 'Haywards Heath - United Kingdom'},
         {lat: 48.8038949, lng: 2.1016689, title: 'Versailles - France'},
+        {lat: 41.8903140, lng: 12.492252, title: 'Rome - Italy'},
+        {lat: 43.7742824, lng: 11.256479, title: 'Florence - Italy'},
+        {lat: 43.7250144, lng: 10.396311, title: 'Pisa - Italy'},
+        {lat: 45.4440144, lng: 11.002923, title: 'Verona - Italy'},
+        {lat: 45.4348477, lng: 12.338351, title: 'Venice - Italy'},
+        {lat: 45.4657576, lng: 9.1920013, title: 'Milan - Italy'}
     ]
 };
