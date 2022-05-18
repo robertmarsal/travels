@@ -55,6 +55,7 @@ var data = {
         {lat: 43.7250144, lng: 10.396311, title: 'Pisa - Italy'},
         {lat: 45.4440144, lng: 11.002923, title: 'Verona - Italy'},
         {lat: 45.4348477, lng: 12.338351, title: 'Venice - Italy'},
-        {lat: 45.4657576, lng: 9.1920013, title: 'Milan - Italy'}
+        {lat: 45.4657576, lng: 9.1920013, title: 'Milan - Italy'},
+        {lat: 41.9025066, lng: 12.453906, title: 'Vatican City - Vatican City'}
     ]
 };
