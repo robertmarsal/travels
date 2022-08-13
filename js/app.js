@@ -109,9 +109,25 @@ function fitBounds(map, points) {
     map.fitBounds(latLngBounds);
 }
 
-function addLegend(map, points) {
-    var legend = document.getElementById('legend');
+function addLocationsLegend(map, points) {
+    var legend = document.getElementById('locations-legend');
     legend.innerText = points.length + ' locations';
+
+    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+}
+
+function addCountriesLegend(map, points) {
+    var legend = document.getElementById('countries-legend');
+
+    const uniqueCountries = new Set();
+
+    points.forEach((point) => {
+        const [location, country] = point.title.split(' - ');
+
+        uniqueCountries.add(country)
+    })
+
+    legend.innerText = uniqueCountries.size + ' countries';
 
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
 }
@@ -122,7 +138,8 @@ function initMapCallback() {
     // Configure the map
     addMarkers(map, data.points);
     addOverlayView(map);
-    addLegend(map, data.points);
+    addLocationsLegend(map, data.points);
+    addCountriesLegend(map, data.points);
     fitBounds(map, data.points);
 }
 
