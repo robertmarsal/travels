@@ -24,7 +24,7 @@ var data = {
         {lat: 42.509264, lng: 1.530649, title: 'Andorra la Vella - Andorra'},
         {lat: 51.212594, lng: 3.227896, title: 'Bruges - Belgium'},
         {lat: 50.846723, lng: 4.352368, title: 'Brussels - Belgium'},
-        {lat: 54.155190, lng: -4.478464, title: 'Douglas - Isle of Man'},
+        {lat: 54.155190, lng: -4.478464, title: 'Douglas - United Kingdom'},
         {lat: 48.858405, lng: 2.294460, title: 'Paris - France'},
         {lat: 52.509718, lng: 13.375700, title: 'Berlin - Germany'},
         {lat: 48.790189, lng: 9.183139, title: 'Stuttgart - Germany'},
