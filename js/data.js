@@ -60,6 +60,9 @@ var data = {
         {lat: 45.4440144, lng: 11.002923, title: 'Verona - Italy'},
         {lat: 45.4348477, lng: 12.338351, title: 'Venice - Italy'},
         {lat: 45.4657576, lng: 9.1920013, title: 'Milan - Italy'},
-        {lat: 41.9025066, lng: 12.453906, title: 'Vatican City - Vatican City'}
+        {lat: 41.9025066, lng: 12.453906, title: 'Vatican City - Vatican City'},
+        {lat: 51.4554685, lng: -2.589740, title: 'Bristol - United Kingdom'},
+        {lat: 51.3819465, lng: -2.359637, title: 'Bath - United Kingdom'},
+        {lat: 51.1790231, lng: -1.826268, title: 'Stonehenge - United Kingdom'}
     ]
 };
