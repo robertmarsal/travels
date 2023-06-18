@@ -68,6 +68,7 @@ var data = {
         {lat: 37.1103098, lng: 25.372491, title: 'Naxos - Greece'},
         {lat: 36.4168143, lng: 25.432025, title: 'Santorini - Greece'},
         {lat: 36.4047298, lng: 25.394307, title: 'Nea Kameni - Greece'},
-        {lat: 36.4386398, lng: 25.351460, title: 'Thirasia - Greece'}
+        {lat: 36.4386398, lng: 25.351460, title: 'Thirasia - Greece'},
+        {lat: 44.1763872, lng: 28.637253, title: 'Constanța - Romania'}
     ]
 };
