@@ -69,6 +69,8 @@ var data = {
         {lat: 36.4168143, lng: 25.432025, title: 'Santorini - Greece'},
         {lat: 36.4047298, lng: 25.394307, title: 'Nea Kameni - Greece'},
         {lat: 36.4386398, lng: 25.351460, title: 'Thirasia - Greece'},
-        {lat: 44.1763872, lng: 28.637253, title: 'Constanța - Romania'}
+        {lat: 44.1763872, lng: 28.637253, title: 'Constanța - Romania'},
+        {lat: 52.2062981, lng: 0.1182088, title: 'Cambridge - United Kingdom'},
+        {lat: 51.6206373, lng: 0.3034682, title: 'Brentwood - United Kingdom'}
     ]
 };
