@@ -71,6 +71,11 @@ var data = {
         {lat: 36.4386398, lng: 25.351460, title: 'Thirasia - Greece'},
         {lat: 44.1763872, lng: 28.637253, title: 'Constanța - Romania'},
         {lat: 52.2062981, lng: 0.1182088, title: 'Cambridge - United Kingdom'},
-        {lat: 51.6206373, lng: 0.3034682, title: 'Brentwood - United Kingdom'}
+        {lat: 51.6206373, lng: 0.3034682, title: 'Brentwood - United Kingdom'},
+        {lat: 51.4669572, lng: -3.162993, title: 'Cardiff - United Kingdom'},
+        {lat: 52.4134821, lng: -4.091262, title: 'Aberystwyth - United Kingdom'},
+        {lat: 53.0683744, lng: -4.077049, title: 'Snowdon - United Kingdom'},
+        {lat: 52.4781162, lng: -1.894033, title: 'Birmingham - United Kingdom'},
+        {lat: 52.4090468, lng: -1.504567, title: 'Coventry - United Kingdom'}
     ]
 };
