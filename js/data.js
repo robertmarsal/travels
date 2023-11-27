@@ -76,6 +76,13 @@ var data = {
         {lat: 52.4134821, lng: -4.091262, title: 'Aberystwyth - United Kingdom'},
         {lat: 53.0683744, lng: -4.077049, title: 'Snowdon - United Kingdom'},
         {lat: 52.4781162, lng: -1.894033, title: 'Birmingham - United Kingdom'},
-        {lat: 52.4090468, lng: -1.504567, title: 'Coventry - United Kingdom'}
+        {lat: 52.4090468, lng: -1.504567, title: 'Coventry - United Kingdom'},
+        {lat: 55.9486995, lng: -3.190404, title: 'Edinburgh - United Kingdom'},
+        {lat: 56.0008958, lng: -3.840128, title: 'The Falkirk Wheel - United Kingdom'},
+        {lat: 56.0206083, lng: -3.763246, title: 'The Kelpies - United Kingdom'},
+        {lat: 57.4766734, lng: -4.226837, title: 'Inverness - United Kingdom'},
+        {lat: 57.3737005, lng: -4.364599, title: 'Loch Ness - United Kingdom'},
+        {lat: 57.1672586, lng: -3.691314, title: 'Cairngorm Reindeer Herd - United Kingdom'},
+        {lat: 57.1430997, lng: -2.095897, title: 'Aberdeen - United Kingdom'}
     ]
 };
