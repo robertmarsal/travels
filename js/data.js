@@ -84,6 +84,7 @@ var data = {
         {lat: 57.3737005, lng: -4.364599, title: 'Loch Ness - United Kingdom'},
         {lat: 57.1672586, lng: -3.691314, title: 'Cairngorm Reindeer Herd - United Kingdom'},
         {lat: 57.1430997, lng: -2.095897, title: 'Aberdeen - United Kingdom'},
-        {lat: 41.5603371, lng: 2.0110998, title: 'Terrassa - Spain'}
+        {lat: 41.5603371, lng: 2.0110998, title: 'Terrassa - Spain'},
+        {lat: 50.7851427, lng: -0.662940, title: 'United Kingdom - Bognor Regis'}
     ]
 };
