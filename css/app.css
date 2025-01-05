@@ -2,7 +2,8 @@ html {
     overflow-y: hidden;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -19,43 +20,45 @@ html, body {
 
 #locations-legend {
     color: white;
-    background: #CC0052;
+    background: #cc0052;
     font-size: 14px;
     padding: 5px;
     border-radius: 2px;
-    opacity: .9;
+    opacity: 0.9;
     margin: 5px 10px 15px 5px;
+    cursor: pointer;
 }
 
 #countries-legend {
     color: white;
-    background: #CC0052;
+    background: #cc0052;
     font-size: 14px;
     padding: 5px;
     border-radius: 2px;
-    opacity: .9;
+    opacity: 0.9;
     margin: 5px 10px 5px 5px;
+    cursor: pointer;
 }
 
 @keyframes pulsate {
     0% {
-        box-shadow: none
+        box-shadow: none;
     }
     50% {
         box-shadow:
-                    inset 0 0 3px #CC0052,
-                    inset 0 0 3px #CC0052,
-                          0 0 3px #CC0052,
-                          0 0 3px #CC0052,
-                          0 0 3px #CC0052;
+            inset 0 0 3px #cc0052,
+            inset 0 0 3px #cc0052,
+            0 0 3px #cc0052,
+            0 0 3px #cc0052,
+            0 0 3px #cc0052;
     }
     100% {
-        box-shadow: none
+        box-shadow: none;
     }
 }
 
 .github-corner svg {
-    fill: #CC0052;
+    fill: #cc0052;
     color: white;
     position: absolute;
     top: 0;
@@ -69,13 +72,16 @@ html, body {
 }
 
 @keyframes octocat-wave {
-    0%, 100% {
+    0%,
+    100% {
         transform: rotate(0);
     }
-    20%, 60% {
+    20%,
+    60% {
         transform: rotate(-25deg);
     }
-    40%, 80% {
+    40%,
+    80% {
         transform: rotate(10deg);
     }
 }

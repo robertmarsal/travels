@@ -6,14 +6,14 @@ Map your travels around the world.
 
 ![Preview](http://i.imgur.com/7kFVWux.png)
 
-See a live demo here: https://robertmarsal.github.io/travels/
+See a live demo here: [https://robertmarsal.com/travels/](https://robertmarsal.com/travels/)
 
 ## Installation
 
 Clone this repository then move the public folder into the html folder of your
 web server
 
-```
+```sh
 git clone https://github.com/robertmarsal/travels.git
 mv travels/public /var/www/html/travels
 ```
